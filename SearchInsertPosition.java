@@ -25,7 +25,6 @@
 
 class SearchInsertPosition
 {   
-
         public int searchInsert(int[] nums, int target) {
             int start = 0;
             int end = nums.length - 1;
@@ -54,11 +53,5 @@ class SearchInsertPosition
           SearchInsertPosition obj = new SearchInsertPosition();
 
           System.out.println(obj.searchInsert(arr, target));
-
-        
-
     }
-
-
-
 }
